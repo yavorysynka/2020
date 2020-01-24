@@ -6,6 +6,7 @@ Copyright (C) 2014
 -->
 <resources>
   <string name="welcome">Willkommen!</string>
+  <string name="new_key">deutsche sprache</string>
   <string name="save_as">Speichern als...</string>
   <string name="view">Ansicht</string>
   <string name="about">Über...</string>
