@@ -1,0 +1,26 @@
+{
+  "sammy": {
+    "username": "SammyShark",
+    "location": "Indischer Ozean",
+    "online": true,
+    "followers": 987
+  },
+  "jesse": {
+    "username": "JesseOctopus",
+    "location": "Pazifik See",
+    "online": false,
+    "followers": 432
+  },
+  "drew": {
+    "username": "DrewSquid",
+    "location": "Atlantischer Ozean",
+    "online": false,
+    "followers": 321
+  },
+  "jamie": {
+    "username": "JamieMantisShrimp",
+    "location": "Pazifik See",
+    "online": true,
+    "followers": 654
+  }
+}
