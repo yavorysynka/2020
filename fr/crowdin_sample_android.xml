@@ -4,4 +4,7 @@
 Crowdin.net Sample Android XML resource file
 Copyright (C) 2014
 -->
-<resources></resources>
+<resources>
+  <string name="save_as">Enregistrer sous...</string>
+  <string name="change_password">Changer le mot de passe</string>
+</resources>
