@@ -22,4 +22,5 @@ Copyright (C) 2014
   <string name="compose_messages">Compose Message</string>
   <string name="no_data">No date provided</string>
   <string name="quick_start">Quick Start</string>
+  <string name="qolia_a">Hello, world!</string>
 </resources>
