@@ -5,14 +5,14 @@ Copyright (C) 2014
 -->
 <resources>
   <string name="welcome">Bienvenue!</string>
-  <string name="save_as">Enregistrer sous...</string>
+  <string name="save_as">Enregistrer sous...bvjkfnvfdkj</string>
   <string name="view">Vue</string>
   <string name="about">Sur...</string>
   <string name="about_me">À propos de moi</string>
   <string name="current_password">Mot de passe actuel</string>
   <string name="new_password">nouveau mot de passe</string>
   <string name="confirm_password">Confirmer le nouveau mot de passe</string>
-  <string name="change_password">Changer le mot de passe</string>
+  <string name="change_password">Changer le mot de passe &lt;b&gt;</string>
   <string name="password_recover">Récupération de mot de passe</string>
   <string name="password_reset_success">Votre mot de passe a été réinitialisé avec succès!</string>
   <string name="read_message">Lire le message</string>
