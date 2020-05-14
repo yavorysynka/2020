@@ -22,4 +22,5 @@ Copyright (C) 2014
   <string name="no_data">No date provided</string>
   <string name="quick_start">Quick Start</string>
   <string name="qolia_a">Hello, world!</string>
+  <string name="qoli_new">New key for translation!</string>
 </resources>
