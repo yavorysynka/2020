@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Crowdin.net Sample Android XML resource file
+Copyright (C) 2014
+-->
+<resources>
+  <string name="welcome">Welkom!</string>
+  <string name="save_as">Opslaan als...</string>
+  <string name="view">Visie</string>
+  <string name="about">Over...</string>
+  <string name="about_me">Over mij</string>
+  <string name="current_password">Huidig wachtwoord</string>
+  <string name="new_password">Nieuw wachtwoord</string>
+  <string name="confirm_password">Confirm New Password</string>
+  <string name="change_password">Wachtwoord wijzigen</string>
+  <string name="password_recover">Wachtwoord herstellen</string>
+  <string name="password_reset_success">Uw wachtwoord is succesvol gereset!</string>
+  <string name="read_message">Read message</string>
+  <string name="confirm_delete">Weet u zeker dat u dit bericht wilt verwijderen?</string>
+  <string name="search_in_messages">Zoeken in berichten</string>
+  <string name="compose_messages">Compose Message</string>
+  <string name="no_data">Geen datum opgegeven</string>
+  <string name="quick_start">Snel starten</string>
+  <string name="qolia_a">Hello, world!</string>
+</resources>
