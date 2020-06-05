@@ -1,3 +1,3 @@
 files:
   - source: /*.xml
-    translation: /translations//%osx_locale%.%file_extension%
+    translation: /june/src/%two_letters_code%/%original_file_name%
