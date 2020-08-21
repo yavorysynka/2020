@@ -1,3 +1,3 @@
 files:
   - source: /*.xml
-    translation: /august/src/%two_letters_code%/%original_file_name%
+    translation: /august/src/%android_code%/%original_file_name%
