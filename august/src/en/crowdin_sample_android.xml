@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 Crowdin.net Sample Android XML resource file
 Copyright (C) 2014
 -->
-
 <resources>
-  <string name="welcome">Welcome!</string>
+  <string name="welcome">Welcome Olga!</string>
   <string name="save_as">Save as...</string>
   <string name="view">View</string>
   <string name="about">About...</string>
