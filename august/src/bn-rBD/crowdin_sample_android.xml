@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Crowdin.net Sample Android XML resource file
+Copyright (C) 2014
+-->
+<resources>
+  <string name="welcome">স্বাগত!</string>
+  <string name="save_as">সংরক্ষণ করুন...</string>
+  <string name="view">দেখুন</string>
+  <string name="about">সম্পর্কিত...</string>
+  <string name="about_me">আমার সম্পর্কে</string>
+  <string name="current_password">বর্তমান পাসওয়ার্ড</string>
+  <string name="new_password">নতুন পাসওয়ার্ড</string>
+  <string name="confirm_password">নিশ্চিত কর নতুন গোপননম্বর</string>
+  <string name="change_password">পাসওয়ার্ড পরিবর্তন করুন</string>
+  <string name="password_recover">পাসওয়ার্ড পুনরুদ্ধার</string>
+  <string name="password_reset_success">আপনার পাসওয়ার্ড সফলভাবে পুনরায় সেট!</string>
+  <string name="read_message">বার্তা পড়ুন</string>
+  <string name="confirm_delete">আপনি কি নিশ্চিত আপনি এই বার্তাটি মুছতে চান?</string>
+  <string name="search_in_messages">বার্তাগুলিতে অনুসন্ধান করুন</string>
+  <string name="compose_messages">বার্তা রচনা</string>
+  <string name="no_data">কোনও তারিখ সরবরাহ করা হয়নি</string>
+  <string name="quick_start">দ্রুত শুরু</string>
+  <string name="qolia_a">ওহে বিশ্ব!</string>
+</resources>
