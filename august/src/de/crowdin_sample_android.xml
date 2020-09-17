@@ -9,7 +9,7 @@ Copyright (C) 2014
   <string name="view">View</string>
   <string name="about">About...</string>
   <string name="about_me">About Me</string>
-  <string name="current_password">Current Password</string>
+  <string name="current_password">Passwort vergessen</string>
   <string name="new_password">New Password</string>
   <string name="confirm_password">Confirm New Password</string>
   <string name="change_password">Change Password</string>
