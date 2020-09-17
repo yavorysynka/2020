@@ -4,10 +4,10 @@ Crowdin.net Sample Android XML resource file
 Copyright (C) 2014
 -->
 <resources>
-  <string name="welcome">Welcome!</string>
+  <string name="welcome">أهلا بك!</string>
   <string name="new_key">Some new text here</string>
-  <string name="save_as">Save as...</string>
-  <string name="view">View</string>
+  <string name="save_as">حفظ باسم...</string>
+  <string name="view">رأي</string>
   <string name="about">About...</string>
   <string name="about_me">About Me</string>
   <string name="current_password">Current Password</string>
