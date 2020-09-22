@@ -5,21 +5,21 @@ Copyright (C) 2014
 -->
 <resources>
   <string name="welcome">أهلا بك!</string>
-  <string name="new_key">Some new text here</string>
+  <string name="new_key">بعض النص الجديد هنا</string>
   <string name="save_as">حفظ باسم...</string>
   <string name="view">رأي</string>
-  <string name="about">About...</string>
-  <string name="about_me">About Me</string>
-  <string name="current_password">Current Password</string>
-  <string name="new_password">New Password</string>
-  <string name="confirm_password">Confirm New Password</string>
-  <string name="change_password">Change Password</string>
-  <string name="password_recover">Password recover</string>
-  <string name="password_reset_success">Your password reseted successully!</string>
-  <string name="read_message">Read message</string>
-  <string name="confirm_delete">Are you sure you want to delete this message?</string>
-  <string name="search_in_messages">Search in messages</string>
-  <string name="compose_messages">Compose Message</string>
-  <string name="no_data">No date provided</string>
-  <string name="quick_start">Quick Start</string>
+  <string name="about">حول...</string>
+  <string name="about_me">عني</string>
+  <string name="current_password">كلمة المرور الحالي</string>
+  <string name="new_password">كلمة سر جديدة</string>
+  <string name="confirm_password">تأكيد كلمة المرور الجديدة</string>
+  <string name="change_password">غير كلمة السر</string>
+  <string name="password_recover">استعادة كلمة السر</string>
+  <string name="password_reset_success">تمت إعادة تعيين كلمة المرور الخاصة بك بنجاح!</string>
+  <string name="read_message">اقرأ الرساله</string>
+  <string name="confirm_delete">هل أنت متأكد أنك تريد حذف هذه الرسالة؟</string>
+  <string name="search_in_messages">ابحث في الرسائل</string>
+  <string name="compose_messages">اكتب رسالة</string>
+  <string name="no_data">لم يذكر التاريخ</string>
+  <string name="quick_start">بداية سريعة</string>
 </resources>
