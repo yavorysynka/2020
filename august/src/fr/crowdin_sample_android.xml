@@ -4,24 +4,24 @@ Crowdin.net Sample Android XML resource file
 Copyright (C) 2014
 -->
 <resources>
-  <string name="welcome">Welcome New Crowdin!</string>
-  <string name="save_as">Save as!</string>
-  <string name="view">View</string>
-  <string name="about">About</string>
-  <string name="about_me">About Me</string>
-  <string name="current_password">Current Password</string>
-  <string name="new_password">New Password</string>
-  <string name="confirm_password">Confirm New Password</string>
-  <string name="change_password">Change Password</string>
-  <string name="password_recover">Password recover</string>
-  <string name="password_reset_success">Your password reseted successully!</string>
-  <string name="read_message">Read message</string>
-  <string name="confirm_delete">Are you sure you want to delete this message?</string>
-  <string name="search_in_messages">Search in messages!</string>
-  <string name="compose_messages">Compose Message</string>
-  <string name="no_data">No date provided</string>
-  <string name="quick_start">Quick Start</string>
-  <string name="qolia_a">Hello, world!</string>
-  <string name="qolia_a">Hello, there!!!!</string>
-  <string name="qolia_new_key">New key</string>
+  <string name="welcome">Bienvenue à Crowdin !</string>
+  <string name="save_as">Enregistrer sous !</string>
+  <string name="view">Voir</string>
+  <string name="about">À propos de</string>
+  <string name="about_me">À propos de moi</string>
+  <string name="current_password">Mot de passe actuel</string>
+  <string name="new_password">Nouveau mot de passe</string>
+  <string name="confirm_password">Confirmer le nouveau mot de passe</string>
+  <string name="change_password">Changer le mot de passe</string>
+  <string name="password_recover">Récupération du mot de passe</string>
+  <string name="password_reset_success">Votre mot de passe a été réinitialisé avec succès !</string>
+  <string name="read_message">Lire le message</string>
+  <string name="confirm_delete">Êtes-vous sûr de vouloir supprimer ce message ?</string>
+  <string name="search_in_messages">Rechercher dans les messages !</string>
+  <string name="compose_messages">Écrire un message</string>
+  <string name="no_data">Aucune date fournie</string>
+  <string name="quick_start">Démarrage rapide</string>
+  <string name="qolia_a">Bonjour, monde !</string>
+  <string name="qolia_a">Bonjour, là!!!!</string>
+  <string name="qolia_new_key">Nouvelle clé</string>
 </resources>
