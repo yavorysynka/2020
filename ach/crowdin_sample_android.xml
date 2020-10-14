@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Crowdin.net Sample Android XML resource file
+Copyright (C) 2014
+-->
+<resources>
+  <string name="welcome">crwdns3982620:0crwdne3982620:0</string>
+  <string name="new_key">crwdns3982622:0crwdne3982622:0</string>
+  <string name="save_as">crwdns3982624:0crwdne3982624:0</string>
+  <string name="view">crwdns3982626:0crwdne3982626:0</string>
+  <string name="about">crwdns3982628:0crwdne3982628:0</string>
+  <string name="about_me">crwdns3982630:0crwdne3982630:0</string>
+  <string name="current_password">crwdns3982632:0crwdne3982632:0</string>
+  <string name="new_password">crwdns3982634:0crwdne3982634:0</string>
+  <string name="confirm_password">crwdns3982636:0crwdne3982636:0</string>
+  <string name="change_password">crwdns3982638:0crwdne3982638:0</string>
+  <string name="password_recover">crwdns3982640:0crwdne3982640:0</string>
+  <string name="password_reset_success">crwdns3982642:0crwdne3982642:0</string>
+  <string name="read_message">crwdns3982644:0crwdne3982644:0</string>
+  <string name="confirm_delete">crwdns3982646:0crwdne3982646:0</string>
+  <string name="search_in_messages">crwdns3982648:0crwdne3982648:0</string>
+  <string name="compose_messages">crwdns3982650:0crwdne3982650:0</string>
+  <string name="no_data">crwdns3982652:0crwdne3982652:0</string>
+  <string name="quick_start">crwdns3982654:0crwdne3982654:0</string>
+</resources>
