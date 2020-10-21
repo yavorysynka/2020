@@ -12,7 +12,7 @@ Copyright (C) 2014
   <string name="current_password">現在のパスワード</string>
   <string name="new_password">新しいパスワード</string>
   <string name="confirm_password">新しいパスワードを確認</string>
-  <string name="change_password">パスワードを変更する</string>
+  <string name="change_password">パスワードを変更する changes</string>
   <string name="password_recover">パスワード回復</string>
   <string name="password_reset_success">パスワードが正常にリセットされました。</string>
   <string name="read_message">メッセージを読む</string>
