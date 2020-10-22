@@ -5,9 +5,9 @@ Copyright (C) 2014
 -->
 <resources>
   <string name="welcome">欢迎使用 Crowdin!</string>
-  <string name="save_as">Save as!</string>
+  <string name="save_as">另存为！</string>
   <string name="view">jdksbcsdkj</string>
-  <string name="about">About</string>
+  <string name="about">关于</string>
   <string name="about_me">关于我</string>
   <string name="current_password">当前密码</string>
   <string name="new_password">新密码</string>
@@ -17,11 +17,11 @@ Copyright (C) 2014
   <string name="password_reset_success">您的密码已成功重置！</string>
   <string name="read_message">阅读留言</string>
   <string name="confirm_delete">你确定要删除这条消息吗？</string>
-  <string name="search_in_messages">Search in messages!</string>
+  <string name="search_in_messages">在消息中搜索！</string>
   <string name="compose_messages">撰写信息</string>
   <string name="no_data">没有提供日期</string>
   <string name="quick_start">快速开始</string>
-  <string name="qolia_a">Hello, world!</string>
-  <string name="qolia_a">Hello, there!!!!</string>
-  <string name="qolia_new_key">New key</string>
+  <string name="qolia_a">你好，世界！</string>
+  <string name="qolia_a">您好！！！！</string>
+  <string name="qolia_new_key">新建密钥</string>
 </resources>
