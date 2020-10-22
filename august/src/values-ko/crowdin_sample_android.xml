@@ -4,10 +4,10 @@ Crowdin.net Sample Android XML resource file
 Copyright (C) 2014
 -->
 <resources>
-  <string name="welcome">Welcome New Crowdin!</string>
-  <string name="save_as">Save as!</string>
+  <string name="welcome">New Crowdin을 환영합니다!</string>
+  <string name="save_as">다른 이름으로 저장!</string>
   <string name="view">전망</string>
-  <string name="about">About</string>
+  <string name="about">정보</string>
   <string name="about_me">나에 대해서</string>
   <string name="current_password">현재 비밀번호</string>
   <string name="new_password">새 비밀번호</string>
@@ -17,11 +17,11 @@ Copyright (C) 2014
   <string name="password_reset_success">비밀번호가 성공적으로 재설정되었습니다!</string>
   <string name="read_message">메시지 읽기</string>
   <string name="confirm_delete">이 메시지를 삭제 하시겠습니까?</string>
-  <string name="search_in_messages">Search in messages!</string>
+  <string name="search_in_messages">메시지 검색!</string>
   <string name="compose_messages">메시지 작성</string>
   <string name="no_data">제공된 날짜 없음</string>
   <string name="quick_start">빠른 시작</string>
-  <string name="qolia_a">Hello, world!</string>
-  <string name="qolia_a">Hello, there!!!!</string>
-  <string name="qolia_new_key">New key</string>
+  <string name="qolia_a">안녕, 세상!</string>
+  <string name="qolia_a">안녕하십니까!!!!</string>
+  <string name="qolia_new_key">새 키</string>
 </resources>
