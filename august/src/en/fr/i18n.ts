@@ -13,7 +13,6 @@ export const translation: Translation = {
     no: `No`,
     next: `Next`,
     back: `Back`,
-    send: `Send`,
     dismiss: `Dismiss`,
     logout: `Logout`,
     retry: `Retry`,
