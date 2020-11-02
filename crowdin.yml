@@ -2,3 +2,5 @@ files:
   - source: /august/src/en/*.xml
     translation: /august/src/%two_letters_code%/%original_file_name%
     update_option: update_without_changes
+  - source: /**/*.ts
+    translation: /**/%two_letters_code%/%original_file_name%
