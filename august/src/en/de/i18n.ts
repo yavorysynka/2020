@@ -8,12 +8,11 @@ export const translation: Translation = {
     beta: ``,
     appFullName: `$t(common.appName) $t(common.beta)`,
     ok: `Ok`,
-    cancel: `Cancel`,
-    yes: `Yes`,
-    no: `No`,
-    next: `Next`,
-    back: `Back`,
-    send: `Send`,
+    cancel: `Abbrechen`,
+    yes: `Ja`,
+    no: `Nein`,
+    next: `Nächste`,
+    back: `Zurück`,
     dismiss: `Dismiss`,
     logout: `Logout`,
     retry: `Retry`,
@@ -54,726 +53,727 @@ export const translation: Translation = {
   units: {
     B: 'B',
     KB: 'KB',
-    MB: 'MB',
-    GB: 'GB',
+    MB: "MN",
+    GB: "SF",
     MHz: 'MHz',
     seconds: 's'
   },
   iOSPush: {
-    message: `New message`,
-    messages: `New messages ({{count}})`
+    message: `Neue Nachricht`,
+    messages: `Neue Nachrichten ({{count}})`
   },
   appState: {
-    Connected: `Connected`,
-    Disconnected: `Disconnected`,
-    Unpaired: `Unpaired`,
+    Connected: `Verbunden`,
+    Disconnected: `Verbindung getrennt`,
+    Unpaired: `Ungepaart`,
     Pairing: `Pairing`,
-    Connecting: `Connecting...`
+    Connecting: `Verbinden...`
   },
   actions: {
-    open: `Open`,
-    openWith: `Open with...`,
-    copy: `Copy`,
+    open: `Öffnen`,
+    openWith: `Öffnen mit...`,
+    copy: `Kopieren`,
     cancel: `$t(common.cancel)`,
     close: `$t(common.close)`,
-    remove: `Remove`,
-    retry: `Retry`,
-    save: `Save as...`,
-    share: 'Share',
-    openFileLocation: `Open file location`,
-    get: `Get`
+    remove: `Entfernen`,
+    retry: `Wiederholen`,
+    save: `Speichern als...`,
+    share: "Teilen",
+    openFileLocation: `Dateiverzeichnis öffnen`,
+    get: `Erhalten`
   },
   // <<-HPQD
   core: {
     notifications: {
       app: {
-        NewNotificationSummarySingle: "New notification: (1)",
-        NewNotificationSummaryMultiple: "New notifications: ({{count}})"
+        NewNotificationSummarySingle: "Neue Benachrichtigung: (1)",
+        NewNotificationSummaryMultiple: "Neue Benachrichtigungen: ({{count}})"
       },
       sms: {
-        NewMessageSummarySingle: `New message: (1)`,
-        NewMessageSummaryMultiple: `New messages: ({{count}})`,
-        SmsName: `Messages`
+        NewMessageSummarySingle: `Neue Nachricht: (1)`,
+        NewMessageSummaryMultiple: `Neue Nachrichten: ({{count}})`,
+        SmsName: `Nachrichten`
       }
     },
     // HPQD->>
     pwa: {
-      installPrompt: `Would you like to add $t(common.appName) as a standalone app?`,
+      installPrompt: `Möchtest du $t(common.appName) als eigenständige App hinzufügen?`,
       closeDuringTransfer: {
-        title: `Warning: Media transfer is in progress.`,
-        content: `By closing the app, all media transfer in progress will end.`,
-        confirm: `OK`,
-        cancel: `Cancel`
+        title: `Warnung: Medienübertragung ist im Gange.`,
+        content: `Durch das Schließen der App wird der gesamte laufende Medientransfer beendet.`,
+        confirm: `Ok`,
+        cancel: `Abbrechen`
       }
     } // <<-HPQD
 
   },
   errors: {
     popupBlocked: {
-      title: `Browser blocked opening documents for this page`,
-      subtitle: `You can unblock it by pressing a 'popup' icon in an address bar and Allow showwing popups`
+      title: `Browser hat das Öffnen von Dokumenten für diese Seite blockiert`,
+      subtitle: `Du kannst die Blockierung durch Drücken eines "Popup"-Symbols in der Adressleiste wieder aufheben und Popups erlauben`
     }
   },
   widgets: {
     menuTitle: '+ WIDGETS',
     menu: {
-      Settings: 'Settings',
-      Customize: 'Customize',
-      Mirroring: 'Mirroring',
-      Media: 'Media',
-      Sms: 'Messages',
-      Contacts: 'Contacts',
-      Notifications: 'Notifications',
+      Settings: "Einstellungen",
+      Customize: "Anpassen",
+      Mirroring: "Spiegeln",
+      Media: "Medien",
+      Sms: "Nachrichten",
+      Contacts: "Kontakte",
+      Notifications: "Benachrichtigungen",
       Dashboard: 'Dashboard'
     }
   },
   component: {
     settings: {
-      name: `Settings`,
-      enableNotifications: `See notification pop-ups on your PC`,
-      selectNotificationsMute: `Choose phone applications from which you would like to see notifications on your PC.`,
-      selectNotificationsMuteIosHtml: `Phone applications from which you received notifications during this pairing session.<br>Uncheck the applications from which you do not want to receive notifications.`,
-      sendFeedbackTo: `Send feedback to:`,
+      name: `Einstellungen`,
+      enableNotifications: `Benachrichtigungs-Popups auf Ihrem PC anzeigen`,
+      selectNotificationsMute: `Wählen Sie die Telefon-Anwendungen, von denen Sie Benachrichtigungen auf Ihrem PC sehen möchten.`,
+      selectNotificationsMuteIosHtml: `Telefonanwendungen, von denen Sie Benachrichtigungen während dieser Paarungssitzung erhalten haben.<br>Deaktivieren Sie die Anwendungen, von denen Sie keine Benachrichtigungen erhalten möchten.`,
+      sendFeedbackTo: `Feedback senden an:`,
       version: `Version:`,
-      allowSms: `Allow SMS notifications`,
-      allowToastSound: `Allow popup sounds`,
-      permissionsTitle: `Permissions`,
-      bluetoothPair: `Pair your mobile device and HP PC via Bluetooth`,
-      bluetoothAlreadyPaired: `Phone and PC are already paired over Bluetooth.`,
-      selectBackground: `Select background picture`
+      allowSms: `SMS-Benachrichtigungen erlauben`,
+      allowToastSound: `Popup-Töne erlauben`,
+      permissionsTitle: `Berechtigungen`,
+      bluetoothPair: `Verbinde dein Mobilgerät und HP PC über Bluetooth`,
+      bluetoothAlreadyPaired: `Telefon und PC sind bereits über Bluetooth gekoppelt.`,
+      selectBackground: `Hintergrundbild auswählen`
     },
     notifications: {
-      name: `Notifications`,
-      noNewNotifications: `No notifications to display`,
-      clearAll: `Clear all notifications`,
-      openInApp: `Open in app`,
-      inviteToVOIP: `Invite to Video Chat`,
-      reply: `Reply`,
-      replyAll: `Reply All`,
-      replyPlaceholder: `Enter a message`,
+      name: `Benachrichtigungen`,
+      noNewNotifications: `Keine Benachrichtigungen zum Anzeigen`,
+      clearAll: `Alle Benachrichtigungen löschen`,
+      openInApp: `In App öffnen`,
+      inviteToVOIP: `Zum Videochat einladen`,
+      reply: `Antwort`,
+      replyAll: `Alle antworten`,
+      replyPlaceholder: `Nachricht eingeben`,
       replyFailureToast: {
-        title: `Reply Failed`,
-        subtitle: `Click to launch $t(common.appName)`
+        title: `Antwort fehlgeschlagen`,
+        subtitle: `Klicke, um $tzu starten (common.appName)`
       },
-      mute: `Mute`,
-      unmute: `Unmute`,
-      privateContact: `Private contact`,
-      privateSubtitle: `Private message`
+      mute: `Stumm`,
+      unmute: `Entstumm`,
+      privateContact: `Privater Kontakt`,
+      privateSubtitle: `Private Nachricht`
     },
     media: {
-      name: `Files`,
+      name: `Dateien`,
       downloadButton: `Download`,
-      previewButton: `Preview`,
-      noPreviewAvailable: `This file cannot be previewed.`,
-      noFilesFound: `No files were found`,
-      photo: `Photos`,
+      previewButton: `Vorschau`,
+      noPreviewAvailable: `Diese Datei kann nicht in der Vorschau angezeigt werden.`,
+      noFilesFound: `Keine Dateien gefunden`,
+      photo: `Fotos`,
       video: `Videos`,
       audio: `Audio`,
       album: `Album`,
-      document: `Documents`,
-      confirmDelete: `Are you sure you want to delete this file?`,
-      deleteFailed: `Failed to delete file`,
-      saveAsFileTypeDescription: `Shared file`,
-      savedToKnownDirectory: `{{fileName}} was saved in the {{directory}} folder`,
+      document: `Dokumente`,
+      confirmDelete: `Sind Sie sicher, dass Sie diese Datei löschen möchten?`,
+      deleteFailed: `Fehler beim Löschen der Datei`,
+      saveAsFileTypeDescription: `Gemeinsame Datei`,
+      savedToKnownDirectory: `{{fileName}} wurde im Ordner {{directory}} gespeichert`,
       displaySize: {
         L: 'L',
         M: 'M',
         S: 'S'
       },
-      dragAndDropFailText: `Dragging out failed. Please try again after file is ready`,
+      dragAndDropFailText: `Ziehen fehlgeschlagen. Bitte versuchen Sie es erneut, nachdem die Datei bereit ist`,
       fileFields: {
         name: 'Name',
-        created: 'Created',
-        modified: 'Modified',
-        type: 'Type',
-        size: 'Size'
+        created: "Erstellt",
+        modified: "Geändert",
+        type: "Typ",
+        size: "Größe"
       }
     },
     messages: {
-      name: `Messages`,
-      composeButtonTitle: `+ New Message`,
-      inputPlaceholder: `Write a message...`,
-      composeHeader: `New Message`,
-      groupConversationButtonTitle: `Start group conversation`,
-      selectMessageRecipients: `Select message recipients...`,
-      image: `Picture`,
+      name: `Nachrichten`,
+      composeButtonTitle: `+ Neue Nachricht`,
+      inputPlaceholder: `Nachricht schreiben...`,
+      composeHeader: `Neue Nachricht`,
+      groupConversationButtonTitle: `Gruppengespräch starten`,
+      selectMessageRecipients: `Nachrichtenempfänger auswählen...`,
+      image: `Bild`,
       video: `Video`,
-      attachmentTooltip: `Attach files`,
-      fileTooLargeWarningTitle: `File too large`,
-      fileTooLargeWarning: `File size exceeds {{size}} $t(units.KB) maximum. Please validate the maximum file size allowed by your carrier. When exceeded, unexpected behavior may occur.`,
-      toTitle: `To:`,
+      attachmentTooltip: `Dateien anhängen`,
+      fileTooLargeWarningTitle: `Datei zu groß`,
+      fileTooLargeWarning: `Die Dateigröße überschreitet das Maximum von {{size}} $t(Einheiten.KB). Bitte überprüfen Sie die maximale Dateigröße, die Ihr Versanddienst zulässt. Bei Überschreitung kann unerwartetes Verhalten auftreten.`,
+      toTitle: `An:`,
       emojiTooltip: `Emoji`,
-      noConversationsAvailable: `New conversations will be displayed here.`,
-      noConversationSelected: `No conversation has been selected`,
-      noConversationSelectedMessage: `Select a conversation to view and send messages`,
-      onboardingTitle: `Text Messages`,
-      onboardingSubtitle: `Send and receive text messages using your PC`,
-      onboardingButtonTitle: `Get Started`,
+      noConversationsAvailable: `Hier werden neue Unterhaltungen angezeigt.`,
+      noConversationSelected: `Keine Unterhaltung ausgewählt`,
+      noConversationSelectedMessage: `Wählen Sie eine Unterhaltung zum Anzeigen und Senden von Nachrichten`,
+      onboardingTitle: `Textnachrichten`,
+      onboardingSubtitle: `Senden und Empfangen von Textnachrichten über Ihren PC`,
+      onboardingButtonTitle: `Los geht's`,
       info: `info`,
-      groupMessage: `Group Message`,
-      groupConversation: `Group Conversation`,
-      massText: `Mass Text`,
-      messageContact: `Message\n{{name}}`,
-      emailContact: `Email\n{{name}}`,
-      initialComposeTooltip: `Compose a new message`,
+      groupMessage: `Gruppen-Nachricht`,
+      groupConversation: `Gruppengespräch`,
+      massText: `Massentext`,
+      messageContact: `Nachricht\n{{name}}`,
+      emailContact: `E-Mail\n{{name}}`,
+      initialComposeTooltip: `Neue Nachricht verfassen`,
       start: `Start`,
-      sending: `Sending`,
-      sent: `Sent`,
+      sending: `Senden`,
+      sent: `Gesendet`,
       unsent: `Unsent`
     },
     phonebook: {
-      name: `Phone`
+      name: `Telefon`
     },
     contacts: {
-      name: `Contacts`,
-      noContactSelected: `No contact has been selected`
+      name: `Kontakte`,
+      noContactSelected: `Kein Kontakt ausgewählt`
     },
     apps: {
       name: `Apps`
     },
     diagnostics: {
-      name: `Diagnostics`,
-      battery: `Battery Level`,
-      storage: `Used Storage`,
-      memory: `Used Memory`,
-      cpuUsage: `CPU Usage`,
-      cpuFrequency: `CPU Frequency`
+      name: `Diagnose`,
+      battery: `Akkustand`,
+      storage: `Verwendeter Speicher`,
+      memory: `Verwendeter Speicher`,
+      cpuUsage: `CPU Auslastung`,
+      cpuFrequency: `CPU-Frequenz`
     },
     dialer: {
-      dialer: 'Dialer',
+      dialer: "Anrufer",
       name: `Keypad`,
-      incomingCallFrom: `Incoming Call From`
+      incomingCallFrom: `Eingehender Anruf von`
     },
     mirroring: {
-      name: `Mirroring`,
-      sessionExpiredHtml: `The mirroring session expired in order<br/>to save your phone's battery`,
-      reActivate: `Re-activate Mirroring`
+      name: `Spiegeln`,
+      sessionExpiredHtml: `Die Spiegelungssitzung ist abgelaufen, um<br/>den Akku Ihres Telefons zu sparen`,
+      reActivate: `Spiegelung reaktivieren`
     },
     voip: voipTrans.component.voip,
     dashboard: {
       name: `Dashboard`,
-      title: `Welcome Aboard!`,
-      subtitle: `Your PC is successfully connected to:`,
-      connectedHtml: `Your <strong>{{deviceName}}</strong> is now connected to your PC.`,
-      notificationsHtml: `Receive and reply to phone<br><strong>notifications</strong>`,
-      messagesHtml: `<strong>Text</strong> from the comfort<br>of your PC`,
-      contactsHtml: `All your phone <strong>contacts</strong><br>in one place`,
+      title: `Willkommen!`,
+      subtitle: `Ihr PC ist erfolgreich verbunden mit:`,
+      connectedHtml: `Ihr <strong>{{deviceName}}</strong> ist jetzt mit Ihrem PC verbunden.`,
+      notificationsHtml: `Empfange und antworte auf Telefon<br><strong>Benachrichtigungen</strong>`,
+      messagesHtml: `<strong>Text</strong> vom Komfort<br>Ihres PCs`,
+      contactsHtml: `Alle Ihr Telefon <strong>Kontakte</strong><br>an einem Ort`,
       mirroringHtml: `Enjoy full <strong>mirroring</strong> of your<br>phone on your PC`,
-      appsHtml: `Run your phone’s <strong>apps</strong><br>on the big screen`,
-      mediaHtml: `See your phone’s photos,<br>videos & <strong>files</strong> on your PC`,
-      privacy: `We care about your privacy. Your phone content will show locally on your PC browser and will not be stored on our servers.`,
-      serviceLoadingPlaceholder: `Loading, please wait...`,
-      serviceConnectingPlaceholder: `Connecting to phone`
+      appsHtml: `Führen Sie <strong>Apps</strong><br>auf dem großen Bildschirm aus`,
+      mediaHtml: `Sehen Sie sich die Fotos,<br>Videos & <strong>Dateien</strong> auf Ihrem PC an`,
+      privacy: `Wir kümmern uns um Ihre Privatsphäre. Ihre Telefon-Inhalte werden lokal auf Ihrem PC Browser angezeigt und werden nicht auf unseren Servern gespeichert.`,
+      serviceLoadingPlaceholder: `Lädt, bitte warten...`,
+      serviceConnectingPlaceholder: `Verbindung zum Telefon`
     },
     notificationPermissionRequest: {
-      info: `You can now see your phone's notifications on the notifications tab. If you would also like new notifications to pop up on your browser (when your browser is minimized or even when you are not on $t(common.appName)'s site), select "Allow" when prompted.`
+      info: `Sie können nun die Benachrichtigungen Ihres Telefons auf der Registerkarte Benachrichtigungen sehen. Wenn Sie auch möchten, dass neue Benachrichtigungen in Ihrem Browser angezeigt werden (wenn Ihr Browser minimiert ist oder sogar wenn Sie nicht auf $tsind (gemeinsam. ppName)'s site), wähle "Erlauben" wenn du dazu aufgefordert wirst.`
     },
     unsupportedBrowser: {
-      title: `You seem to be using an unsupported browser`,
-      subtitle: `To enjoy our application, try using the following browsers`
+      title: `Sie scheinen einen nicht unterstützten Browser zu verwenden`,
+      subtitle: `Um unsere Anwendung zu genießen, verwenden Sie die folgenden Browser`
     },
     privacy: {
-      textHtml: `We care about and respect your privacy.\n
+      textHtml: `Wir kümmern uns um Ihre Privatsphäre und respektieren sie.\n
       <ul>
-      <li>Your content will show locally on your browser, and no personal data is ever stored on our servers.</li>
-      <li>You are in a full control of the permissions granted to the app on your phone.</li>
-      <li>We will never sell your personal data to third parties under any circumstances.</li>
-      <li>We collect a minimal set of usage data, with no personal information, which helps us improve our app.</li>
+      <li>Ihr Inhalt wird lokal in Ihrem Browser angezeigt, und es werden keine persönlichen Daten auf unseren Servern gespeichert.</li>
+      <li>Sie haben die volle Kontrolle über die Berechtigungen, die der App auf Ihrem Telefon gewährt werden.</li>
+      <li>Wir werden Ihre persönlichen Daten unter keinen Umständen an Dritte verkaufen.</li>
+      <li>Wir sammeln minimale Nutzungsdaten ohne persönliche Informationen, was uns hilft, unsere App zu verbessern.</li>
       </ul>`,
       textLongHtml: ``,
       textExtendedHtml: ``,
-      linkTitle: `Review your privacy settings`,
-      linkUnderlinedMessage: `Learn more`,
-      analyticsNotice: `Analytics Notice`,
-      yes: `Yes, make my experience better by sharing my usage data`,
-      no: `No, I’ll decide later`,
+      linkTitle: `Überprüfe deine Privatsphäre-Einstellungen`,
+      linkUnderlinedMessage: `Mehr erfahren`,
+      analyticsNotice: `Analysemitteilung`,
+      yes: `Ja, machen Sie meine Erfahrung besser, indem Sie meine Nutzungsdaten teilen`,
+      no: `Nein, ich werde später entscheiden`,
       titleHtml: ``,
-      buttonInactive: `Please make your selection`,
-      buttonYesActive: `Help Improve Your Experience`,
-      buttonNoActive: `Continue`
+      buttonInactive: `Bitte wählen Sie Ihre Auswahl`,
+      buttonYesActive: `Hilf dabei, deine Erfahrung zu verbessern`,
+      buttonNoActive: `Weiter`
     },
     landing: {
-      titleHtml: `Bring your phone to<br/> your big screen`,
+      titleHtml: `Bring dein Telefon auf<br/> deinen großen Bildschirm`,
       pointListHtml: `
-        <li>Text from the comfort of your PC</li>
-        <li>Make and take video calls</li>
-        <li>Access your phone’s files and media</li>
-        <li>Receive and reply to phone notifications</li>
-        <li>Run your phone’s apps on the big screen</li>
+        <li>Text aus dem Komfort Ihres PCs</li>
+        <li>Führen Sie Videoanrufe durch</li>
+        <li><li> Zugriff auf die Dateien und Medien Ihres Telefons</li>
+        <li>Empfangen und antworten Sie auf Telefonbenachrichtigungen</li>
+        
+        <li>Führen Sie Ihre Telefon-Apps auf dem großen Bildschirm aus</li>
         `,
-      subtitle: `All from the comfort of your PC’s browser!`,
-      downloadTitleHtml: `Download <strong>$t(common.appName)</strong> app to your android:`,
-      getMobileAppHtml: `Get the <strong>$t(common.appName)</strong> mobile app from Google Play`,
-      connected: `Enjoy your phone on your PC`,
-      terms: `Terms`,
-      privacy: `Privacy Policy`,
-      about: `Learn More About $t(common.appName)`,
-      poweredByHtml: `Powered by <strong>Screenovate Technologies LTD</strong>`,
+      subtitle: `Alles aus dem Komfort Ihres PC-Browsers!`,
+      downloadTitleHtml: `Lade <strong>$t(common.appName)</strong> App auf dein Android herunter:`,
+      getMobileAppHtml: `Holen Sie sich die <strong>$t(common.appName)</strong> mobile App von Google Play`,
+      connected: `Genießen Sie Ihr Telefon auf Ihrem PC`,
+      terms: `Begriffe`,
+      privacy: `Datenschutzerklärung`,
+      about: `Erfahren Sie mehr über $t(common.appName)`,
+      poweredByHtml: `Unterstützt von <strong>Screenovate Technologies LTD</strong>`,
       // HPQD->>
-      accessRecentFiles: `Access My Recent Files`,
-      updateTitle: `Update Your $t(common.appName) Mobile App:`,
-      updateMessage: `We have made improvements that require an updated mobile companion app. Please ensure your mobile app is up to date before pairing.`
+      accessRecentFiles: `Zugriff auf meine letzten Dateien`,
+      updateTitle: `Aktualisieren Sie Ihre Mobile App $t(common.appName) :`,
+      updateMessage: `Wir haben Verbesserungen vorgenommen, die eine aktualisierte mobile Begleit-App erfordern. Bitte stellen Sie sicher, dass Ihre mobile App vor dem Kopieren auf dem neuesten Stand ist.`
     },
     filedrop: {
-      share: `Drop file here to start sharing`,
-      attachToMessage: `Drop files here to attach to a message`,
-      saveToMedia: `Drop files here to save to your phone`,
-      filedropInvalid: `Unsupported file type`
+      share: `Datei hier ablegen um mit dem Teilen zu beginnen`,
+      attachToMessage: `Dateien hier ablegen um eine Nachricht anzuhängen`,
+      saveToMedia: `Dateien hier ablegen um auf Ihr Telefon zu speichern`,
+      filedropInvalid: `Nicht unterstützter Dateityp`
     },
     connect: {
-      connecting: `Connecting...`,
-      reconnecting: `Disconnected from server, reconnecting...`,
-      establishingP2PConnection: `Establishing peer to peer connection`,
-      scanQRCodeHtml: `After app installation, scan the QR code to connect your phone to your PC`,
-      rememberMe: `Remember me`,
-      reloadQR: `Reload QR code to continue the pairing process`,
-      scanQRCodeHtmlFirstTime: `Already<br/>Have the app?`,
-      subtitleFirstTime: `Pair your phone to<br/>your PC now!`,
-      connectingToIOS: `Connecting to your iPhone...`,
-      selectIOSFromList: `Select your phone from the list of Bluetooth devices`,
-      pairIOSIfNessesary: `If you can't find your iPhone, open Bluetooth preferences and pair it to your PC`
+      connecting: `Verbinden...`,
+      reconnecting: `Verbindung zum Server getrennt, erneut verbinden...`,
+      establishingP2PConnection: `Peer-to-Peer-Verbindung einrichten`,
+      scanQRCodeHtml: `Scannen Sie nach der App-Installation den QR-Code, um Ihr Telefon mit Ihrem PC zu verbinden`,
+      rememberMe: `Erinnere mich`,
+      reloadQR: `QR-Code neu laden, um den Paarungsprozess fortzuführen`,
+      scanQRCodeHtmlFirstTime: `G Het<br/>heeft de app?`,
+      subtitleFirstTime: `Verbinden Sie Ihr Telefon jetzt mit<br/>Ihrem Computer!`,
+      connectingToIOS: `Verbinde mit Ihrem iPhone...`,
+      selectIOSFromList: `Wählen Sie Ihr Telefon aus der Liste der Bluetooth-Geräte`,
+      pairIOSIfNessesary: `Wenn Sie Ihr iPhone nicht finden, öffnen Sie die Bluetooth-Einstellungen und koppeln Sie es an Ihren PC`
     },
     transfer: {
-      name: `File Upload`,
-      downloadSucceeded: `Download succeeded`,
-      downloadFailed: `Download failed`,
-      uploadSucceeded: `Upload succeeded`,
-      uploadFailed: `Upload failed`
+      name: `Datei hochladen`,
+      downloadSucceeded: `Download erfolgreich`,
+      downloadFailed: `Download fehlgeschlagen`,
+      uploadSucceeded: `Upload erfolgreich`,
+      uploadFailed: `Upload fehlgeschlagen`
     },
     shareFeed: {
-      emptyTitle: `Looking for your previous content?`,
-      emptyLink: `Find it here or click the folder icon`,
-      name: `Share Feed`,
-      menuName: `Activity Feed`,
-      fileDeleted: `File is no longer available`,
-      openFailed: `Open failed`,
-      saveFailed: `Save failed`,
-      saveSucceedTitle: `Save`,
-      saveSucceedSubtitle: `File saved successfully`,
-      inputPlaceholder: `Send a note`,
-      filedropHint: `Drop your files here`,
-      textdropHint: `Drop your text here`,
-      filedropInvalid: `Unsupported file type`,
-      sendingTitle: `Sending...`,
-      receivingTitle: `Receiving...`,
-      downloadSubfolderName: `My Received Files`,
-      emptyStateTitleHtml: `Your feed is currently empty.<br>Drop a file here or send a note above.`,
-      dropHintTitle: `Drop a file here to send`,
-      saveAsFileTypeDescription: `Shared file`,
-      toastSingleMessage: `New message`,
-      toastMultipleMessages: `New messages ({{count}})`,
-      transferFailed: `Transfer error, please retry`,
-      transferTextFailed: `Error sending text`,
-      transferFailedDueTimeout: `Sending timed out, please retry when the other device is ready`,
-      transferFailedOnRemoteDevice: `Transfer error, please retry from original device`,
-      unableToOpenFile: `File can't be opened`,
-      tooLargeForRelay: `File size exceeds {{size}}MB cloud connection limit`,
-      recentFeedActivity: `Recent Feed Activity`,
-      emptyFile: `Can't send an empty file (0 KB)`,
-      hiddenFile: `Can't send a hidden file`,
-      fileUnavailable: `File is no longer available`,
-      notEnoughSpace: `Not enough space on device to receive the file`,
-      uploadsDisabled: `Can't send files while sharing is in progress`,
-      message: `Message`,
-      menu: `Context Menu`,
-      attachFile: `Attach a file`,
-      logoutTitle: `Unpair your device`,
-      logoutText: `You are about to disconnect and unpair your device. Next time you open the app, you will be asked to reconnect and pair your devices. Note: your recent files can be accessed at any time.`,
-      readMore: `Read more`,
-      readLess: `Collapse`,
-      pendingSummaryTitle: `Waiting to receive`,
-      pendingFilesSummary: `New files: `,
-      pendingNotesSummary: `New notes: `
+      emptyTitle: `Sie suchen Ihren vorherigen Inhalt?`,
+      emptyLink: `Finden Sie es hier oder klicken Sie auf das Ordnersymbol`,
+      name: `Feed teilen`,
+      menuName: `Aktivitäts-Feed`,
+      fileDeleted: `Datei ist nicht mehr verfügbar`,
+      openFailed: `Öffnen fehlgeschlagen`,
+      saveFailed: `Speichern fehlgeschlagen`,
+      saveSucceedTitle: `Speichern`,
+      saveSucceedSubtitle: `Datei erfolgreich gespeichert`,
+      inputPlaceholder: `Eine Notiz senden`,
+      filedropHint: `Dateien hier ablegen`,
+      textdropHint: `Text hier ablegen`,
+      filedropInvalid: `Nicht unterstützter Dateityp`,
+      sendingTitle: `Senden...`,
+      receivingTitle: `Empfangen...`,
+      downloadSubfolderName: `Meine empfangenen Dateien`,
+      emptyStateTitleHtml: `Ihr Feed ist derzeit leer.<br>Ablegen Sie eine Datei hier oder senden Sie eine Notiz oben.`,
+      dropHintTitle: `Zum Senden eine Datei hier ablegen`,
+      saveAsFileTypeDescription: `Gemeinsame Datei`,
+      toastSingleMessage: `Neue Nachricht`,
+      toastMultipleMessages: `Neue Nachrichten ({{count}})`,
+      transferFailed: `Übertragungsfehler, bitte erneut versuchen`,
+      transferTextFailed: `Fehler beim Senden des Textes`,
+      transferFailedDueTimeout: `Sende-Timeout, bitte versuchen Sie es erneut, wenn das andere Gerät bereit ist`,
+      transferFailedOnRemoteDevice: `Übertragungsfehler, bitte erneut vom ursprünglichen Gerät versuchen`,
+      unableToOpenFile: `Datei kann nicht geöffnet werden`,
+      tooLargeForRelay: `Dateigröße überschreitet {{size}}MB Cloud-Verbindung`,
+      recentFeedActivity: `Letzte Feed-Aktivität`,
+      emptyFile: `Kann keine leere Datei senden (0 KB)`,
+      hiddenFile: `Kann keine versteckte Datei senden`,
+      fileUnavailable: `Datei ist nicht mehr verfügbar`,
+      notEnoughSpace: `Nicht genügend Speicherplatz auf dem Gerät, um die Datei zu empfangen`,
+      uploadsDisabled: `Dateien können während der Freigabe nicht gesendet werden`,
+      message: `Nachricht`,
+      menu: `Kontextmenü`,
+      attachFile: `Datei anhängen`,
+      logoutTitle: `Gerät entkoppeln`,
+      logoutText: `Sie sind dabei, die Verbindung zu trennen und Ihr Gerät zu entkoppeln. Wenn Sie die App das nächste Mal öffnen, werden Sie aufgefordert, sich neu zu verbinden und Ihre Geräte zu koppeln. Hinweis: Auf Ihre aktuellen Dateien kann jederzeit zugegriffen werden.`,
+      readMore: `Lesen Sie mehr`,
+      readLess: `Einklappen`,
+      pendingSummaryTitle: `Warte auf Empfang`,
+      pendingFilesSummary: `Neue Dateien: `,
+      pendingNotesSummary: `Neue Notizen: `
     },
     handsfree: {
-      dialError: `Unable to dial, please try again`,
-      ongoingCall: `Ongoing call`
+      dialError: `Wählen nicht möglich, bitte erneut versuchen`,
+      ongoingCall: `Laufender Anruf`
     },
     troubleshootStepBluetoothHelper: {
-      line1Html: `1. Access your mobile device’s Bluetooth settings and tap the <strong>(i)</strong> next to your PC name`,
-      line2Html: `2. Turn ON <strong>“Sync Contacts”</strong> & <strong>“Show Notifications”</strong> to enable Messaging functionality`,
-      notificationsLine2Html: `2. Turn on <strong>"Share System Notifications"</strong>.`
+      line1Html: `1. Greifen Sie auf die Bluetooth-Einstellungen Ihres Mobilgeräts und tippen Sie auf <strong>(i)</strong> neben Ihrem PC-Namen`,
+      line2Html: `2. Schalten Sie <strong>“Kontakte synchronisieren”</strong> & <strong>“Benachrichtigungen anzeigen”</strong> um die Nachrichtenfunktion zu aktivieren`,
+      notificationsLine2Html: `2. Aktivieren Sie <strong>"Systembenachrichtigungen teilen"</strong>.`
     },
     NotificationsIOSBtTroubleSeeing: {
-      havingTroubleTitle: `Having trouble seeing notifications?`,
-      imgAlt: `iOS notification permission request`
+      havingTroubleTitle: `Haben Sie Probleme mit dem Sehen von Benachrichtigungen?`,
+      imgAlt: `iOS-Benachrichtigungsberechtigungsanfrage`
     },
     BtPairingHelper: {
       bluetooth: `Bluetooth`,
-      pairBluetooth: `Start Pairing`,
-      deviceNotFound: `Device not found`,
-      toggleAppBtPermission: `Please try toggling Off and On the Bluetooth permission for $t(common.appName) inside your <strong>iPhone's Settings</strong>.`,
-      readyHtml: `Access your mobile device’s Settings>Bluetooth, and make sure Bluetooth is toggled on.`,
-      ready2Html: `Please keep the Bluetooth settings screen open during the pairing process.`,
-      readyTitle: `Turn on your mobile device’s Bluetooth`,
+      pairBluetooth: `Paarung starten`,
+      deviceNotFound: `Gerät nicht gefunden`,
+      toggleAppBtPermission: `Bitte versuchen Sie, die Bluetooth-Berechtigung für $t(common.appName) in Ihren <strong>iPhone-Einstellungen auszuschalten</strong>.`,
+      readyHtml: `Greifen Sie auf die Einstellungen Ihres Mobilgerätes zu und stellen Sie sicher, dass Bluetooth eingeschaltet ist.`,
+      ready2Html: `Bitte halten Sie die Bluetooth-Einstellungen während des Paarvorgangs offen.`,
+      readyTitle: `Schalten Sie das Bluetooth Ihres Mobilgeräts ein`,
       btSettingReadyHtml: `Open your phone's Bluetooth settings, click <strong>Next</strong> below, and approve the Bluetooth pairing requests on your PC and your phone.`,
-      title: 'Pairing your phone and PC over Bluetooth',
-      titleNotifications: 'Get your phone notifications on your PC',
-      titlePhone: 'Make and receive calls on your PC',
-      titleSms: 'Pairing your phone and PC over Bluetooth',
-      subtitle: 'We need your phone to be discoverable by Bluetooth',
-      subtitleIosSms: 'To read and write messages, pair your PC with your mobile device using Bluetooth',
-      subtitle2Html: 'Click <strong>Start Pairing</strong> and follow the instructions',
-      errorTitle: 'Pairing failed',
-      errorMessage: 'Please try again',
-      fatalErrorTitle: 'Bluetooth error',
-      discoveringTitle: `Discovering your phone`,
-      fatalErrorMessage: 'A Bluetooth error was encountered, please reboot your PC.',
-      nowDiscoverableAs: `Now discoverable as '{{deviceName}}'`,
-      pairingComplete: `Pairing Succeeded!.`,
-      pairingCompleteIosSubtitle: `One final step...`,
-      pairingCompleteAndroidSubtitle: `Messages you read on your PC will be indicated as read on your mobile device.`,
-      pairingInProcess: `When a pin code appears on the PC and the mobile device, confirm both.`
+      title: "Verbinden Ihres Telefons und PCs über Bluetooth",
+      titleNotifications: "Hol dir deine Telefon-Benachrichtigungen auf deinem PC",
+      titlePhone: "Anrufe auf Ihrem PC tätigen und empfangen",
+      titleSms: "Verbinden Ihres Telefons und PCs über Bluetooth",
+      subtitle: "Wir benötigen dein Telefon um es über Bluetooth zu entdecken",
+      subtitleIosSms: "Um Nachrichten zu lesen und zu schreiben, koppeln Sie Ihren PC mit Ihrem mobilen Gerät mit Bluetooth",
+      subtitle2Html: "Klicken Sie auf <strong>Paarung starten</strong> und folgen Sie den Anweisungen",
+      errorTitle: "Paarung fehlgeschlagen",
+      errorMessage: "Bitte erneut versuchen",
+      fatalErrorTitle: "Bluetooth-Fehler",
+      discoveringTitle: `Entdecke dein Telefon`,
+      fatalErrorMessage: "Ein Bluetooth-Fehler ist aufgetreten, bitte starten Sie Ihren PC neu.",
+      nowDiscoverableAs: `Jetzt entdeckbar als '{{deviceName}}'`,
+      pairingComplete: `Paarung erfolgreich!.`,
+      pairingCompleteIosSubtitle: `Ein letzter Schritt...`,
+      pairingCompleteAndroidSubtitle: `Nachrichten, die Sie auf Ihrem PC lesen, werden als gelesen auf Ihrem mobilen Gerät angezeigt.`,
+      pairingInProcess: `Wenn ein Pin-Code auf dem PC und dem mobilen Gerät erscheint, bestätigen Sie beides.`
     },
     LandingQrBlock: {
-      title: `Please approve our`,
-      and: `and`,
-      terms: `Terms of Use`,
-      privacy: `Privacy Policy`
+      title: `Bitte genehmigen Sie unsere`,
+      and: `und`,
+      terms: `Nutzungsbedingungen`,
+      privacy: `Datenschutzerklärung`
     },
     // This should align with real iOS translations in the Settings -> Bluetooth screen
     iOSPermissionImage: {
-      myDevices: `MY DEVICES`,
-      devices: `DEVICES`,
-      myLaptop: `My Laptop`,
+      myDevices: `MEINE GERÄTE`,
+      devices: `GERÄTE`,
+      myLaptop: `Mein Laptop`,
       // default message, not aligned to iOS
-      connected: `Connected`,
-      forgetThisDevice: `Forget This Device`,
-      systemNotifications: `SYSTEM NOTIFICATIONS`,
-      shareSystemNotifications: `Share System Notifications`,
-      showNotifications: `Show Notifications`,
-      syncContacts: `Sync Contacts`
+      connected: `Verbunden`,
+      forgetThisDevice: `Dieses Gerät vergessen`,
+      systemNotifications: `SYSTEM-BENACHRICHTUNGEN`,
+      shareSystemNotifications: `Systembenachrichtigungen teilen`,
+      showNotifications: `Benachrichtigungen anzeigen`,
+      syncContacts: `Kontakte synchronisieren`
     },
     NoBrowserSupport: {
-      title: `$t(common.appName) is not supported on browsers`,
-      message: `Please use the Windows $t(common.appName) application`
+      title: `$t(common.appName) wird im Browser nicht unterstützt`,
+      message: `Bitte verwenden Sie die Windows $t(common.appName) Anwendung`
     }
   },
   troubleshooting: {
     common: {
-      ShowPermissionRequestOnYourPhone: `Show permission request on your phone`,
+      ShowPermissionRequestOnYourPhone: `Berechtigungsanfrage auf Ihrem Telefon anzeigen`,
       phonePermissionSteps: `<ul>
-      <li>  1. Open $t(common.appName) on your mobile device</li>
-      <li>  2. Click the “Show Permission” button below</li>
-      <li>  3. Approve the permission on your phone</li>
+      <li>  1. Öffne $t(gemeinsam. ppName) auf Ihrem Mobilgerät</li>
+      <li>  2. Klicken Sie auf die Schaltfläche „Berechtigungen anzeigen“ unter</li>
+      <li>  3. Genehmigt die Berechtigung für Ihr Telefon</li>
       </ul>`,
-      onDismissedTitle: `Optional issue dismissed`,
-      onDismissedText: `If you want to initiate it in anytime later, please check in the Settings tab`
+      onDismissedTitle: `Optionales Problem abgelehnt`,
+      onDismissedText: `Wenn Sie es später initiieren möchten, überprüfen Sie bitte die Registerkarte Einstellungen`
     },
     step: {
-      ApprovePermissionOnPhone: `$t(troubleshooting.common.ShowPermissionRequestOnYourPhone)`,
-      ApproveSystemSettingsPermissionOnPhone: `Show system permission request`,
-      EnablePermissionOnPhoneSettings: `$t(troubleshooting.common.ShowPermissionRequestOnYourPhone)`,
+      ApprovePermissionOnPhone: `$t(Fehlersuche.common.ShowPermissionRequestOnYourPhone)`,
+      ApproveSystemSettingsPermissionOnPhone: `Systemberechtigungsanfrage anzeigen`,
+      EnablePermissionOnPhoneSettings: `$t(Fehlersuche.common.ShowPermissionRequestOnYourPhone)`,
       UseDifferentFlavorOnPcOrPhone: `UseDifferentFlavorOnPcOrPhone`,
       RefreshWebPage: `Reload`,
       UpdatePhoneApp: ``,
-      ConnectPcToInternet: `ConnectPcToInternet`,
-      ConnectPhoneToInternet: `Retry`,
-      ResumeSesssion: `Reconnect`,
-      UseInThisWindow: `Use in this window`,
-      MoveDeviceToBtRange: `Make sure your phone is in the same room as your PC`,
-      LaunchBtSettings: `Bluetooth Settings`,
-      CheckBtAdapter: `Check your Bluetooth adapter`,
+      ConnectPcToInternet: `Verbinde PcToInternet`,
+      ConnectPhoneToInternet: `Wiederholen`,
+      ResumeSesssion: `Neu verbinden`,
+      UseInThisWindow: `In diesem Fenster verwenden`,
+      MoveDeviceToBtRange: `Stellen Sie sicher, dass Ihr Telefon im selben Raum ist wie Ihr PC`,
+      LaunchBtSettings: `Bluetooth-Einstellungen`,
+      CheckBtAdapter: `Überprüfen Sie Ihren Bluetooth-Adapter`,
       // <<-HPQD
-      TurnOnBtInPhone: `Please make sure your mobile device is turned on and is in the same room as your PC.`,
-      TogglePhoneBtOffAndOn: `Please turn your phone Bluetooth off and then back on.`,
-      EnableContactAccessForBtDevice: `To use SMS and access your contacts`,
-      EnableMessagesAccessForBtDevice: `To use SMS and access your contacts`,
-      ShowMeHow: `Show me how`,
-      ApproveCapturingPermissionDialogOnPhone: `$t(troubleshooting.common.ShowPermissionRequestOnYourPhone)`,
-      TryMirroringOrNotifActivationAgain: `Launch mirroring again`,
-      ApprovePcNotifPermissionWithDialog: `Show permission request`,
+      TurnOnBtInPhone: `Bitte stellen Sie sicher, dass Ihr Mobilgerät eingeschaltet ist und sich im selben Raum wie Ihr PC befindet.`,
+      TogglePhoneBtOffAndOn: `Bitte schalten Sie Ihr Telefon Bluetooth aus und wieder ein.`,
+      EnableContactAccessForBtDevice: `SMS verwenden und auf Ihre Kontakte zugreifen`,
+      EnableMessagesAccessForBtDevice: `SMS verwenden und auf Ihre Kontakte zugreifen`,
+      ShowMeHow: `Zeige mir wie`,
+      ApproveCapturingPermissionDialogOnPhone: `$t(Fehlersuche.common.ShowPermissionRequestOnYourPhone)`,
+      TryMirroringOrNotifActivationAgain: `Erneut Spiegeln starten`,
+      ApprovePcNotifPermissionWithDialog: `Berechtigungsanfrage anzeigen`,
       ManuallyGrantPcNotifPermission: `ManuallyGrantPcNotifPermission`,
-      AllowNotificationsManuallyHtml: `Your notifications are blocked.<br>Press the lock button in the address bar and allow notifications for $t(common.appName).`,
-      RemovePhone: `Remove the phone from $t(common.appName) by going to Settings and clicking Unpair.`,
-      RemoveBtPairing: `Pair Bluetooth again`,
-      RebootPc: `Please restart your PC`,
+      AllowNotificationsManuallyHtml: `Ihre Benachrichtigungen sind gesperrt.<br>Drücken Sie die Sperrtaste in der Adressleiste und erlauben Sie Benachrichtigungen für $t(common.appName).`,
+      RemovePhone: `Entfernen Sie das Telefon von $t(common.appName) indem Sie zu den Einstellungen gehen und auf Entfernen klicken.`,
+      RemoveBtPairing: `Bluetooth erneut verbinden`,
+      RebootPc: `Bitte starten Sie Ihren PC neu`,
       UnpairPcBt: {
-        action: `Unpair`
+        action: `Entkoppeln`
       },
       UnpairPcBle: `Unpair PC BLE.`,
-      UnpairPhoneBt: `Forget this PC from your phone's Bluetooth settings`,
-      UnpairPhoneBle: `Forget this PC from your iPhone's Bluetooth settings.`,
-      LaunchPhoneAppAncs: `To speed up notifications' loading time, please open the $t(common.appName) app on your phone.`,
-      CloseOtherBleApps: `If the problem persists, make sure no other program on this PC is connected to your phone via Bluetooth.`,
-      AncsPermissionNotShown: `If you didn't see the permission pop on top of the phone app, try going to the phone's home screen.`,
-      ToggleAncsPermission: `If the permission was rejected in the past:`,
-      RequestAncsPermission: `Show permission request`,
-      UpdateWindows: `Please try upgrading Windows.`,
-      HandsfreeFirstTime: `If consent dialog does not pop, please restart $t(common.appName).`,
-      RemoveOtherApp: `Please uninstall the app, restart your machine and try again.`,
-      GrantHfPermissionOnPc: `Open Windows Settings`,
-      DisableHandsfreeOnOtherApp: `Please verify that no other app is authorized to handle phone calls. Then restart $t(common.appName).`,
-      FocusAssist: `Open Focus Assist Settings`
+      UnpairPhoneBt: `Diesen PC von den Bluetooth-Einstellungen Ihres Telefons vergessen`,
+      UnpairPhoneBle: `Vergessen Sie diesen PC von den Bluetooth-Einstellungen Ihres iPhone.`,
+      LaunchPhoneAppAncs: `Um die Ladezeit der Benachrichtigungen zu beschleunigen, öffnen Sie bitte die $t(common.appName) App auf Ihrem Telefon.`,
+      CloseOtherBleApps: `Wenn das Problem weiterhin besteht, stellen Sie sicher, dass kein anderes Programm auf diesem PC über Bluetooth mit Ihrem Telefon verbunden ist.`,
+      AncsPermissionNotShown: `Wenn Sie den Berechtigungs-Pop, oben auf der Telefon-App, nicht gesehen haben, versuchen Sie zum Startbildschirm des Telefons zu gelangen.`,
+      ToggleAncsPermission: `Wenn die Erlaubnis in der Vergangenheit abgelehnt wurde:`,
+      RequestAncsPermission: `Berechtigungsanfrage anzeigen`,
+      UpdateWindows: `Bitte versuchen Sie, Windows zu aktualisieren.`,
+      HandsfreeFirstTime: `Wenn der Zustimmungsdialog nicht erscheint, starten Sie bitte $tneu (common.appName).`,
+      RemoveOtherApp: `Bitte deinstallieren Sie die App, starten Sie Ihren Rechner neu und versuchen Sie es erneut.`,
+      GrantHfPermissionOnPc: `Windows-Einstellungen öffnen`,
+      DisableHandsfreeOnOtherApp: `Bitte stellen Sie sicher, dass keine andere App berechtigt ist, Anrufe zu verarbeiten. Starten Sie $tneu (common.appName).`,
+      FocusAssist: `Focus Assistent Einstellungen öffnen`
     },
     sms: {
-      MessageNotSent: `Message failed to be sent. Click to retry.`
+      MessageNotSent: `Nachricht konnte nicht gesendet werden. Klicke zum wiederholen klicken.`
     },
     issue: {
       PcBtOff: {
-        title: `PC Bluetooth is turned off.`,
-        subtitleHtml: `Please turn it on.`
+        title: `PC Bluetooth ist deaktiviert.`,
+        subtitleHtml: `Bitte schalten Sie es ein.`
       },
       PcBtUnavailable: {
-        title: `Bluetooth is Unavailable`,
+        title: `Bluetooth ist nicht verfügbar`,
         subtitleHtml: ``
       },
       PhoneBtOff: {
-        title: `Phone Bluetooth is turned off.`,
-        subtitleHtml: `Please turn it on.`
+        title: `Bluetooth ist deaktiviert.`,
+        subtitleHtml: `Bitte schalten Sie es ein.`
       },
       BtDeviceNotSelected: {
-        title: `Please open the mobile app and click Pair below`,
+        title: `Bitte öffnen Sie die mobile App und klicken Sie unten auf Paar`,
         subtitleHtml: ``
       },
       NoHandsFreePermissionsOnPc: {
         title: `$t(troubleshooting.issue.UnableToConnectToHandsfree.title)`,
         subtitleHtml: `<ul>
-        <li>$t(common.appName) is not allowed to handle phone calls.</li>
-        <li>Please grant this permission in Windows Settings. Then, restart $t(common.appName).</li>
+        <li>$t(common.appName) darf keine Anrufe verarbeiten.</li>
+        <li>Bitte erteilen Sie diese Berechtigung in den Windows-Einstellungen. Dann starten Sie $tneu (common.appName).</li>
         </ul>`
       },
       NoToken: {
         title: `$t(troubleshooting.issue.UnableToConnectToHandsfree.title)`,
-        subtitleHtml: `Phone calls are not supported for versions 1903 and 1909 of Windows 10.`
+        subtitleHtml: `Telefonate werden für die Versionen 1903 und 1909 von Windows 10 nicht unterstützt.`
       },
       HandsfreeFirstTime: {
         title: `$t(troubleshooting.issue.UnableToConnectToHandsfree.title)`,
-        subtitleHtml: `Please approve $t(common.appName) to handle phone calls.`
+        subtitleHtml: `Bitte genehmigen Sie $t(common.appName) für Anrufe.`
       },
       HfDriversInstalled: {
         title: '$t(troubleshooting.issue.UnableToConnectToHandsfree.title)',
-        subtitleHtml: 'Another app is preventing using phone calls. Please unintstall the app, restart your machine and try again.'
+        subtitleHtml: "Eine andere App verhindert die Verwendung von Telefongesprächen. Bitte entfernen Sie die App, starten Sie Ihren Rechner neu und versuchen Sie es erneut."
       },
       BtHfOffOnPhone: {
-        title: `Unable to connect to your phone`,
-        subtitleHtml: `Make sure that your phone is nearby and its Bluetooth is turned on.`
+        title: `Keine Verbindung zu Ihrem Telefon möglich`,
+        subtitleHtml: `Stellen Sie sicher, dass Ihr Telefon in der Nähe ist und sein Bluetooth eingeschaltet ist.`
       },
       HfDisabledOnPhone: {
         title: ``,
         subtitleHtml: `<ul>
         <li><br></li>
-        <li>If the problem persists, please perform the following steps:</li>
-        <li>  1. Unpair your phone from your PC's Bluetooth settings.</li>
-        <li>  2. Unpair your PC from your phone's Bluetooth settings.</li>
-        <li>  3. Unpair your PC and phone via $t(common.appName).</li>
-        <li>  4. Pair your PC and phone again via $t(common.appName).</li>
+        <li>Wenn das Problem weiterhin besteht, bitte führen Sie folgende Schritte durch:</li>
+        <li>  1. Trennen Sie Ihr Telefon von den Bluetooth-Einstellungen Ihres PCs.</li>
+        <li>  2. Trennen Sie Ihren PC mit den Bluetooth-Einstellungen Ihres Telefons.</li>
+        <li>  3. Entkoppeln Sie Ihren PC und Ihr Telefon über $t(common.appName).</li>
+        <li>  4. Verbinden Sie Ihren PC und rufen Sie erneut über $tan (gemeinsam. ppName).</li>
         </ul>`
       },
       DisableFocusAssist: {
         title: `$t(troubleshooting.issue.UnableToConnectToHandsfree.title)`,
-        subtitleHtml: `Please make sure Focus Assist is off.\n $t(troubleshooting.issue.HfDisabledOnPhone.subtitleHtml)`
+        subtitleHtml: `Bitte stellen Sie sicher, dass Fokus-Assistent ausgeschaltet ist.\n $t(Fehlerbehebung.issue.HfDisabledOnPhone.subtitleHtml)`
       },
       UnableToConnectToHandsfree: {
-        title: `Make and receive calls on your PC`,
-        subtitleHtml: `Unable to manage your phone's calls`
+        title: `Anrufe auf Ihrem PC tätigen und empfangen`,
+        subtitleHtml: `Anrufe Ihres Telefons können nicht verwaltet werden`
       },
       HandsFreeCollision: {
         title: `$t(troubleshooting.issue.UnableToConnectToHandsfree.title)`,
-        subtitleHtml: `Calls are managed by another app.`
+        subtitleHtml: `Anrufe werden von einer anderen App verwaltet.`
       },
       FeatureHasNoCachedDataYet: {
-        title: `Feature is not available while not connected`,
-        subtitleHtml: `Reconnect in order to use this feature`
+        title: `Funktion ist nicht verfügbar, wenn nicht verbunden`,
+        subtitleHtml: `Erneut verbinden, um diese Funktion zu nutzen`
       },
       FeatureUnavailableWhileSuspended: {
-        title: `Unavailable while disconnected`,
-        subtitleHtml: `Resume`
+        title: `Nicht verfügbar während der Verbindung getrennt`,
+        subtitleHtml: `Fortsetzen`
       },
       UnableToAccessMessagesViaBt: {
-        title: `To use SMS and access your contacts`,
+        title: `SMS verwenden und auf Ihre Kontakte zugreifen`,
         subtitleHtml: ``,
-        leadTitle: `Enable access to messages in Bluetooth settings`
+        leadTitle: `Aktiviere Zugriff auf Nachrichten in den Bluetooth-Einstellungen`
       },
       NoOptionalBtPairing: {
-        title: `To get extra features, please pair your mobile device and PC via Bluetooth.`,
+        title: `Um zusätzliche Funktionen zu erhalten, koppeln Sie bitte Ihr Mobiltelefon und Ihren PC per Bluetooth.`,
         subtitleHtml: ``,
         SmsReadOverBt: {
-          title: `To mark the text messages as read, please pair your mobile device and PC via Bluetooth.`,
+          title: `Um die Textnachrichten als gelesen zu markieren, koppeln Sie bitte Ihr Mobiltelefon und Ihren PC per Bluetooth.`,
           subtitleHtml: ``
         },
         Inputs: {
-          title: `To control your phone using the mouse and keyboard, please pair your mobile device and PC via Bluetooth.`,
+          title: `Um Ihr Handy mit der Maus und Tastatur zu steuern, koppeln Sie bitte Ihr Mobiltelefon und Ihren PC über Bluetooth.`,
           subtitleHtml: ``
         }
       },
       UnableToAccessContactsViaBt: {
-        title: `To use SMS and access your contacts`,
+        title: `SMS verwenden und auf Ihre Kontakte zugreifen`,
         subtitleHtml: ``,
         Sms: {
-          title: `To use SMS and access your contacts`,
+          title: `SMS verwenden und auf Ihre Kontakte zugreifen`,
           subtitleHtml: ``
         }
       },
       UnableToConnectViaBt: {
-        title: `Unable to connect to your mobile device via Bluetooth`,
-        subtitleHtml: `Please make sure your mobile device is turned on and is in the same room as your PC<br/>If you removed the Bluetooth pairing on the mobile device, please unpair the mobile device from your PC.`,
+        title: `Keine Verbindung zu Ihrem Mobilgerät über Bluetooth`,
+        subtitleHtml: `Bitte stellen Sie sicher, dass Ihr Mobilgerät eingeschaltet ist und sich im selben Raum wie Ihr PC befindet<br/>Wenn Sie das Bluetooth-Paar auf dem mobilen Gerät entfernt haben, bitte entkoppeln Sie das Mobiltelefon von Ihrem PC.`,
         SmsReadOverBt: {
-          title: `Unable to connect to your mobile device via Bluetooth to mark messages as read`,
+          title: `Keine Verbindung zu Ihrem Mobilgerät über Bluetooth, um Nachrichten als gelesen zu markieren`,
           subtitleHtml: `$t(troubleshooting.issue.UnableToConnectViaBt.subtitleHtml)`
         }
       },
       NoCapturingPermission: {
-        title: `See your phone’s screen on your computer!`,
-        subtitleHtml: `Allow <strong>$t(common.appName)</strong> to capture your phone screen`
+        title: `Sehen Sie den Bildschirm Ihres Telefons auf Ihrem Computer!`,
+        subtitleHtml: `Erlaube <strong>$t(common.appName)</strong> den Bildschirm zu erfassen`
       },
       NoCapturingPermissionAndRejected: {
-        title: `See your phone’s screen on your computer!`,
-        subtitleHtml: `Allow <strong>$t(common.appName)</strong> to capture your phone screen`
+        title: `Sehen Sie den Bildschirm Ihres Telefons auf Ihrem Computer!`,
+        subtitleHtml: `Erlaube <strong>$t(common.appName)</strong> den Bildschirm zu erfassen`
       },
       NoNotifPermissionOnPc: {
-        title: `See your phone’s notifications on your computer!`,
-        subtitleHtml: `Allow browser to show you notifications`
+        title: `Sehen Sie die Benachrichtigungen Ihres Telefons auf Ihrem Computer!`,
+        subtitleHtml: `Erlaube dem Browser Benachrichtigungen anzuzeigen`
       },
       NoContactsPermissionOnPhone: {
-        title: `Message your contacts right from your computer!`,
-        subtitleHtml: `Allow <strong>$t(common.appName)</strong> to access contacts`
+        title: `Melden Sie Ihre Kontakte direkt von Ihrem Computer!`,
+        subtitleHtml: `Erlaube <strong>$t(common.appName)</strong> auf Kontakte zuzugreifen`
       },
       NoSmsPermissionsOnPhone: {
-        leadTitle: `To show message on your PC, $t(common.appName) requires permission to Contacts and SMS`,
+        leadTitle: `Um Nachrichten auf Ihrem PC anzuzeigen, benötigt $t(common.appName) die Berechtigung zu Kontakten und SMS`,
         leadSubtitleHtml: ``,
         title: ``,
-        subtitleHtml: `$t(troubleshooting.common.phonePermissionSteps)`
+        subtitleHtml: `$t(Fehlersuche.common.phonePermissionSteps)`
       },
       NoAccessibilityPermissionOnPhone: {
-        title: `Cannot use mouse or keyboard to interact with phone`,
-        subtitleHtml: `Enable Input Service on your phone to control your phone from your computer`
+        title: `Kann Maus oder Tastatur nicht verwenden um mit dem Telefon zu interagieren`,
+        subtitleHtml: `Aktivieren Sie den Eingabedienst auf Ihrem Telefon, um Ihr Telefon von Ihrem Computer aus zu steuern`
       },
       NoNotifAccessPermissionsOnPhone: {
-        title: `See your phone's notifications on your computer!`,
-        subtitleHtml: `To see your phone's notifications, you'll need to allow <strong>$t(common.appName)</strong> to access:`
+        title: `Sehen Sie die Benachrichtigungen Ihres Telefons auf Ihrem Computer!`,
+        subtitleHtml: `Um die Benachrichtigungen deines Telefons zu sehen, musst du <strong>$t(common.appName)</strong> den Zugriff erlauben:`
       },
       // HPQD->>
       FlavorMismatch: {
-        title: `The <strong>$t(common.appName)</strong> variant on your phone does not match the one on your computer`,
-        subtitleHtml: `Please make sure that the same product is used on both computer and phone`
+        title: `Die <strong>$t(common.appName)</strong> Variante auf Ihrem Telefon stimmt nicht mit der auf Ihrem Computer überein`,
+        subtitleHtml: `Bitte stellen Sie sicher, dass das gleiche Produkt sowohl auf dem Computer als auch auf dem Telefon verwendet wird`
       },
       LocalVersionOutdated: {
-        title: `The $t(common.appName) website has been updated`,
-        subtitleHtml: `Refresh $t(common.appName) on your browser`
+        title: `Die $t(common.appName) Webseite wurde aktualisiert`,
+        subtitleHtml: `Aktualisiere $t(common.appName) in deinem Browser`
       },
       RemoteVersionOutdated: {
-        title: `Update is required`,
-        subtitleHtml: `The $t(common.appName) app on your phone is out of date.<br/>Please update your app to continue.`
+        title: `Update ist erforderlich`,
+        subtitleHtml: `Die $t(common.appName) App auf Ihrem Telefon ist veraltet.<br/>Bitte aktualisieren Sie Ihre App, um fortzufahren.`
       },
       UnableToConnectWebRtc: {
-        title: `Your phone might not be connected`,
-        subtitleHtml: `Please make sure your phone has an active internet connection and launch $t(common.appName) on it`
+        title: `Ihr Telefon ist möglicherweise nicht verbunden`,
+        subtitleHtml: `Bitte stelle sicher, dass dein Telefon eine aktive Internetverbindung hat und starte $t(common.appName) darauf`
       },
       UnableToReachBackend: {
-        title: `Computer not connected`,
-        subtitleHtml: `Make sure your computer has an active internet connection`
+        title: `Computer nicht verbunden`,
+        subtitleHtml: `Stellen Sie sicher, dass Ihr Computer eine aktive Internetverbindung hat`
       },
       OpenedInAnotherBrowserWindow: {
-        title: `$t(common.appName) is open in another window`,
-        subtitleHtml: `Use $t(common.appName) in this window`
+        title: `$t(common.appName) ist in einem anderen Fenster geöffnet`,
+        subtitleHtml: `$t(common.appName) in diesem Fenster verwenden`
       },
       NoExternalStoragePermissionOnPhone: {
-        leadTitle: `To share photos and videos, $t(common.appName) requires permission to “Access photos, media, and files”.`,
+        leadTitle: `Um Fotos und Videos zu teilen, benötigt $t(common.appName) die Erlaubnis „Zugriff auf Fotos, Medien und Dateien“.`,
         leadSubtitleHtml: ``,
         title: ``,
         subtitleHtml: `<ul>
-        <li>  1. Open $t(common.appName) on your mobile device</li>
-        <li>  2. Click the “Show Permission” button below</li>
-        <li>  3. Approve the permission on your phone</li>
+        <li>  1. Öffne $t(gemeinsam. ppName) auf Ihrem Mobilgerät</li>
+        <li>  2. Klicken Sie auf die Schaltfläche „Berechtigungen anzeigen“ unter</li>
+        <li>  3. Genehmigt die Berechtigung für Ihr Telefon</li>
         </ul>`
       },
       NoExternalStoragePermissionOnIos: {
-        leadTitle: `To share photos and videos, $t(common.appName) requires permission to Access Your Photos.`,
+        leadTitle: `Um Fotos und Videos zu teilen, benötigt $t(common.appName) die Erlaubnis, auf Ihre Fotos zuzugreifen.`,
         leadSubtitleHtml: ``,
-        title: `How to allow media sharing on your mobile device`,
+        title: `Wie kann ich das Teilen von Medien auf Ihrem mobilen Gerät zulassen`,
         subtitleHtml: `<ul>
-        <li>  1. Open the $t(common.appName) app on your mobile device</li>
-        <li>  2. Click the “Open App Settings” button below</li>
-        <li>  3. Access $t(common.appName) app settings and make sure Photos has Read and</li>
-        <li>  Write option selected</li>
+        <li>  1. Öffnen Sie die $t(gemeinsam. ppName) App auf Ihrem Mobilgerät</li>
+        <li>  2. Klicken Sie auf die Schaltfläche „App-Einstellungen öffnen“ unter</li>
+        <li>  3. Zugriff $t(gemeinsam. ppName) App-Einstellungen und stellen Sie sicher, dass Fotos gelesen und</li>
+        <li>  Schreib-Option ausgewählt</li>
         </ul>`
       },
       NoSystemSettingsPermissionOnPhone: {
-        title: `Rotate your phone!`,
-        subtitleHtml: `Enable to rotate your phone.`
+        title: `Drehen Sie Ihr Handy!`,
+        subtitleHtml: `Aktivieren, um Ihr Telefon zu drehen.`
       },
       NoOverlayPermission: {
-        title: `Engage with your phone from your computer!`,
-        subtitleHtml: `To allow engaging with notifications and apps from your PC, $t(common.appName) needs permission to draw over other apps.`
+        title: `Verbinden Sie sich mit Ihrem Telefon von Ihrem Computer!`,
+        subtitleHtml: `Um das Mitwirken mit Benachrichtigungen und Apps von Ihrem PC zu ermöglichen, benötigt $t(common.appName) die Erlaubnis, über andere Apps zu zeichnen.`
       },
       NoPushNotificationPermissionOnPhone: {
         title: ``,
-        leadSubtitleHtml: `We recommend allowing notifications for a better experience with the app,<br/>or make sure the app is open when sharing media.`,
+        leadSubtitleHtml: `Wir empfehlen, Benachrichtigungen für ein besseres Erlebnis mit der App<br/>zu erlauben oder sicherzustellen, dass die App geöffnet ist, wenn Medien freigegeben werden.`,
         subtitleHtml: `<ul>
-        <li>  1. Open the $t(common.appName) app on your mobile device</li>
-        <li>  2. Click the “Open App Settings” button below</li>
-        <li>  3. Access $t(common.appName) app settings and make sure Notifications</li>
-        <li>  has Allow Notifications enabled</li>
-        </ul>`
+        <li>  1. Öffnen Sie die $t(gemeinsam. ppName) App auf Ihrem Mobilgerät</li>
+        <li>  2. Klicken Sie auf die Schaltfläche „App-Einstellungen öffnen“ unter</li>
+        <li>  3. Zugriff $t(gemeinsam. ppName) App-Einstellungen und stellen Sie sicher, dass Benachrichtigungen</li>
+        <li>  aktiviert hat</li>
+        </ul> </ul>`
       },
       // <<-HPQD
       PcBtUnpaired: {
-        title: `PC Bluetooth was unpaired from your phone.`,
+        title: `PC Bluetooth wurde von Ihrem Telefon getrennt.`,
         subtitleHtml: ``
       },
       PcBleUnpaired: {
-        title: `PC Bluetooth was unpaired from your phone.`,
+        title: `PC Bluetooth wurde von Ihrem Telefon getrennt.`,
         subtitleHtml: ``
       },
       PcBleStuck: {
-        title: `Bluetooth Connection Failure.`,
-        subtitleHtml: `The Bluetooth connection with your phone is unstable.`
+        title: `Bluetooth-Verbindung fehlgeschlagen.`,
+        subtitleHtml: `Die Bluetooth-Verbindung mit Ihrem Telefon ist instabil.`
       },
       PhoneBleUnpaired: {
-        title: `There is a problem connecting to your iPhone via Bluetooth.`,
-        subtitleHtml: `If you removed your PC from the iPhone Bluetooth settings (clicked "Forget This Device") proceed with the instructions.`
+        title: `Es gibt ein Problem beim Verbinden mit Ihrem iPhone über Bluetooth.`,
+        subtitleHtml: `Wenn Sie Ihren PC von den iPhone-Bluetooth-Einstellungen entfernt haben (klicken Sie auf "Dieses Gerät vergessen") fahren Sie mit den Anweisungen fort.`
       },
       PcBle30SecondDisconnectionBug: {
-        title: `Bluetooth Connection Failure.`,
-        subtitleHtml: `The Bluetooth connection with your phone is unstable. It is recommended to avoid toggling Bluetooth on/off.`
+        title: `Bluetooth-Verbindung fehlgeschlagen.`,
+        subtitleHtml: `Die Bluetooth-Verbindung mit Ihrem Telefon ist instabil. Es wird empfohlen, Bluetooth nicht ein/aus zu schalten.`
       },
       UnableToConnectAncs: {
-        title: `Connecting to your phone...`,
+        title: `Verbinde mit Ihrem Telefon...`,
         subtitleHtml: ``
       },
       PermissionToConnectAncsNotRequested: {
-        title: `Get your phone notifications on your PC`,
-        subtitleHtml: `We need your permission to access notifications<br/><br/>Click <strong>Show permission request</strong> to show the request on your phone`
+        title: `Hol dir deine Telefon-Benachrichtigungen auf deinem PC`,
+        subtitleHtml: `Wir benötigen Ihre Berechtigung für den Zugriff auf Benachrichtigungen<br/><br/>Klicken Sie <strong>Berechtigungsanfrage anzeigen</strong> um die Anfrage auf Ihrem Telefon anzuzeigen`
       },
       PermissionToConnectAncsNotDetermined: {
-        title: `$t(troubleshooting.issue.PermissionToConnectAncsNotRequested.title)`,
-        subtitleHtml: `We need your permission to access notifications`
+        title: `$t(troubleshooting.issue.PermissionToConnectAncsNoquested.title)`,
+        subtitleHtml: `Wir benötigen deine Erlaubnis, um auf Benachrichtigungen zuzugreifen`
       },
       WaitBleDisconnection: {
         title: `$t(troubleshooting.issue.UnableToConnectViaBt.title)`,
-        subtitleHtml: `Please turn your phone Bluetooth off and then back on.<br/>If the problem persists, make sure no other program on this PC is connected to your phone via Bluetooth.`
+        subtitleHtml: `Bitte schalten Sie Ihr Telefon Bluetooth aus und wieder ein.<br/>Wenn das Problem weiterhin besteht, stellen Sie sicher, dass kein anderes Programm auf diesem PC über Bluetooth mit Ihrem Telefon verbunden ist.`
       },
       NoBtDiscoveryPermission: {
         title: `$t(component.BtPairingHelper.subtitle)`,
         subtitleHtml: `<ul>
-        <li>  1. Open the app on your mobile device</li>
-        <li>  2. Click $t(troubleshooting.common.ShowPermissionRequestOnYourPhone) below</li>
-        <li>  3. Approve the permission showed on your phone</li>
+        <li>  1. Öffnen Sie die App auf Ihrem Mobilgerät</li>
+        <li>  2. Klicken Sie auf $t(troubleshooting.common. howPermissionRequestOnYourPhone) unten</li>
+        <li>  3. Genehmigung der auf Ihrem Telefon angegebenen Berechtigung</li>
         </ul>`
       },
       NoAncsPermission: {
-        title: `To view notifications on your PC`,
+        title: `Benachrichtigungen auf Ihrem PC anzeigen`,
         subtitleHtml: ``
       },
       UploadsNotSupported: {
-        title: `Sending is unavailable`,
-        subtitleHtml: `Please wait for current process to end before proceeding`
+        title: `Senden ist nicht verfügbar`,
+        subtitleHtml: `Bitte warten Sie, bis der aktuelle Prozess beendet ist, bevor Sie fortfahren`
       }
     },
     actions: {
       ignore: {
-        RequestAncsPermission: `Done`,
-        AncsPermissionNotShown: `$t(troubleshooting.actions.ignore.RequestAncsPermission)`,
-        ToggleAncsPermission: `$t(troubleshooting.actions.ignore.RequestAncsPermission)`
+        RequestAncsPermission: `Fertig`,
+        AncsPermissionNotShown: `$t(Fehlersuche.actions.ignore.RequestAncsPermission)`,
+        ToggleAncsPermission: `$t(Fehlersuche.actions.ignore.RequestAncsPermission)`
       },
       havingTrouble: {
-        RequestAncsPermission: `There is no request on the phone`
+        RequestAncsPermission: `Es gibt keine Anfrage am Telefon`
       }
     }
   },
   debug: {
-    isRelay: 'is relay'
+    isRelay: "ist Relais"
   }
 };
 export default translation;
