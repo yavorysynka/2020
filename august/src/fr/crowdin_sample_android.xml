@@ -5,8 +5,8 @@ Copyright (C) 2014
 -->
 <resources>
   <string name="welcome">Bienvenue à Crowdin !</string>
-  <string name="save_as">Enregistrer sous !</string>
-  <string name="view">Voir </string>
+  <string name="save_as">Save as!</string>
+  <string name="view">View</string>
   <string name="about">À propos de</string>
   <string name="about_me">À propos de moi</string>
   <string name="current_password">mot de passe actuel</string>
