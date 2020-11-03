@@ -6,10 +6,10 @@ Copyright (C) 2014
 <resources>
   <string name="welcome">Bienvenue à Crowdin !</string>
   <string name="save_as">Enregistrer sous !</string>
-  <string name="view">Voir</string>
+  <string name="view">Voir </string>
   <string name="about">À propos de</string>
   <string name="about_me">À propos de moi</string>
-  <string name="current_password">Mot de passe actuel</string>
+  <string name="current_password">mot de passe actuel</string>
   <string name="new_password">Nouveau mot de passe</string>
   <string name="confirm_password">Confirmer le nouveau mot de passe</string>
   <string name="change_password">Changer le mot de passe</string>
