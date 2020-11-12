@@ -4,7 +4,7 @@ Crowdin.net Sample Android XML resource file
 Copyright (C) 2014
 -->
 <resources>
-  <string name="welcome">Welcome New Crowdin!</string>
+  <string name="welcome">Welcome New Crowdin New!</string>
   <string name="save_as">Save as!</string>
   <string name="view">View</string>
   <string name="about">À propos de</string>
@@ -25,4 +25,5 @@ Copyright (C) 2014
   <string name="qolia_a">Bonjour, là!!!!</string>
   <string name="qolia_new_key">Nouvelle clé</string>
   <string name="qolia_new_key_again">Joyeux Vendredi!y</string>
+  <string name="123" comment="some " maxLength="7">hello, world!</string>
 </resources>
