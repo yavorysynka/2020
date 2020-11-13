@@ -21,8 +21,8 @@ Copyright (C) 2014
   <string name="compose_messages">Écrire un message</string>
   <string name="no_data">Aucune date fournie</string>
   <string name="quick_start">Démarrage rapide</string>
-  <string name="qolia_a">Hello, there!!!!</string>
   <string name="qolia_a">Bonjour, monde !</string>
+  <string name="qolia_a">Hello, there!!!!</string>
   <string name="qolia_new_key">Nouvelle clé</string>
   <string name="qolia_new_key_again">Joyeux Vendredi!y</string>
   <string name="new_life">Joyeux vendredi</string>
